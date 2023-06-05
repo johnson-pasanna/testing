@@ -1,19 +1,22 @@
-/* CSS for a responsive design */
+/* CSS for centering the form */
 
-.container {
-  max-width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+form {
+  text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
-  /* CSS for screens larger than 768px */
-  .container {
-    max-width: 768px;
-  }
+input[type="email"] {
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
 }
