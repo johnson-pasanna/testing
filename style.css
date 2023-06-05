@@ -1,22 +1,19 @@
+/* CSS for a responsive design */
+
 .container {
-  width: 80%;
-  max-width: 800px;
+  max-width: 100%;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
-.container img {
-  display: block;
-  width: 100%;
+img {
+  max-width: 100%;
   height: auto;
 }
-/* 
-.container {
-  width: 100%;
-}
 
-.container img {
-  display: block;
-  margin: 0px auto;
-  width: 250px;
-  height: 250px;
-} */
+@media only screen and (min-width: 768px) {
+  /* CSS for screens larger than 768px */
+  .container {
+    max-width: 768px;
+  }
+}
