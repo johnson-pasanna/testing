@@ -20,3 +20,7 @@ input[type="email"] {
 button {
   padding: 10px 20px;
 }
+
+p {
+  margin: 10px;
+}
